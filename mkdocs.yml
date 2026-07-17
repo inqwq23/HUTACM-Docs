@@ -1,0 +1,73 @@
+site_name: HUTACM Docs
+site_description: HUTACM 首页及学习指南。
+site_author: inqwq23
+site_url: https://hutacm.net.cn/
+
+repo_name: inqwq23/HUTACM-Docs
+repo_url: https://github.com/inqwq23/HUTACM-Docs
+
+copyright: 'Copyright &copy; 2026 HUTACM Team'
+
+nav:
+  - 简介:
+    - Getting Started: index.md
+    - 兴趣小组介绍: intro/groups.md
+    - 招新流程: intro/selection.md
+    - 程序设计竞赛: intro/hutcpc.md
+  - 学习指南:
+    - 学习指南简介: guide/index.md
+    - 初识登神之路:
+      - 中心招新资讯: guide/starting/information.md
+      - 学习计算机基本常识: guide/starting/basics.md
+      - 提问的智慧: guide/starting/How-To-Ask-Questions-The-Smart-Way.md
+    - 学习 C 语言:
+      - 代码编辑器（IDE）: guide/learn-c/devcpp.md
+      - C 语言基础: guide/learn-c/learn-c.md
+    - 学习 C++ 语言: guide/learn-cpp.md
+    - 学习竞赛算法:
+      - 基础算法: guide/learn-algorithm/learn-basic-algo.md
+      - 深入学习: guide/learn-algorithm/continue.md
+    - 习题:
+      - 洛谷推荐题单: guide/problems/luogu-training-list.md
+      - 往年招新练习题单: guide/problems/old-problem-list.md
+    - 附录:
+      - 更多 IDE: guide/appendix/more-ide.md
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: zh
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+  
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+extra_css:
+  - _static/css/extra.css
+
+extra_javascript:
+  - assets/javascripts/external-guide-links.js

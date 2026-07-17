@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/fira-sans-400.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Fira Sans', var(--md-text-font-family);
+}

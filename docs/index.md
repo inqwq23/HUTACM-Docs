@@ -3,7 +3,7 @@ title: HUTACM Docs
 ## Welcome to HUTACM Docs
 
 <figure markdown="span">
-  ![CMPTR_Logo_Art](images/cmptr_logo_art.png){ width="40%" }
+  ![CMPTR_Logo_Art](images/cmptr_logo_art.jpg){ width="40%" }
 </figure>
 
 <a href="https://acm.hut.edu.cn/" target="_blank">前往 HUTOJ</a> &emsp; [学习指南](guide) &emsp; [加入我们](#_1)

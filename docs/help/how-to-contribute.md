@@ -24,7 +24,9 @@
 
 ## 在 GitHub 上修改现有条目
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114040793730850&bvid=BV1oZAdeHEKx&cid=28502396843&p=1" width="100%" height="600" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+??? tip "相关视频"
+    
+    <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114040793730850&bvid=BV1oZAdeHEKx&cid=28502396843&p=1" width="100%" height="600" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 在仓库中找到条目位置
 
@@ -46,6 +48,10 @@
 
 请等待我们审核您的 PR，确认 PR 符合要求后将合并您的修改。
 
+???+ note
+    
+    本站服务器暂时不会自动从仓库拉取更新，您的修改合并后，还需要等待我们定期更新网站内容。
+
 ## 使用 Git 进行更多修改
 
 如果您认为本站需要新增条目、修改目录层次，推荐使用 [Git](https://git-scm.com/) 在本地编辑。
@@ -58,9 +64,9 @@
 4. 将这些更改推送（push）到您 clone 的分支仓库；
 5. 提交 PR 至主仓库。
 
-如果您更改了页面结构，请相对应地修改 `mkdocs.yml` 的 `nav` 部分。
+如果您更改了目录结构（如新增条目），请相对应地修改 `mkdocs.yml` 的 `nav` 部分。
 
-请在本地创建虚拟环境并安装 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)，确保您做的修改能通过构建。
+请在本地创建虚拟环境并安装 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)（点击查看官方文档）以进行本地测试，确保您做的修改能通过构建且正常显示。
 
 ## 格式规范
 
